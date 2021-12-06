@@ -1,0 +1,73 @@
+.oui {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 1%;
+}
+
+.movie-container {
+    border: 2px solid;
+    border-radius: 7px 7px;
+    background-color: white;
+    width: 30%;
+    height: 388px;
+}
+.movie-title {
+    margin:0;
+    padding: 0 20px;
+    font-size: 19px;
+}
+.container-movie-button-like-dislike {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.movie-button-like {
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin-right: 3%;
+}
+.movie-button-dislike {
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin-right: 3%;
+}
+.div-movie-button-delete{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.movie-button-delete  {
+    background-color: #e677ff;
+    width: 50px;
+    border: none;
+    height: 40px;
+    border-radius: 0 0 5px 0;
+    color: white;
+    font-size: 15px;
+}
+.movie-button-delete:hover {
+    background-color: #e677ff;
+    color: black;
+}
+
+.description {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.movie-img {
+    border-radius: 5px;
+}
+.movie-p-like {
+    margin:0;
+}
